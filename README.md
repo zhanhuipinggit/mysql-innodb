@@ -55,3 +55,7 @@
       - 事务日志项（TransactionLog）包含键（key），旧值（oldValue），和新值（newValue），用于在事务回滚时恢复数据。
     - 测试：
       - 在 main 函数中，演示了如何启动事务、执行更新操作、回滚事务、提交事务等基本操作，并打印出数据库的内容，帮助验证事务机制的实现。
+
+## buffer pool
+### mysql buffer Pool的实现
+- buffer_pool实现简易版buffer pool, day_one_bpoll.c 文件 one 代表最初版，后面迭代会创新新的文件，方便大家归纳学习
